@@ -42,11 +42,15 @@ body{
 }
 
 #coupon{
-   height:55vh;
-   width:30%;
-   z-index:-100;
-   margin: auto;
-   visibility: hidden;
+    height: 55vh;
+    width: 30%;
+    position: absolute;
+    top: 32%;
+    left: 35.2%;
+    z-index: 100;
+    margin: auto;
+    visibility: visible;
+
 }
 
 #coupon button{

@@ -4,6 +4,15 @@ function change_theme(){
     theme.classList.toggle("dark_theme")
 }
 
+function loadCoupon (){
+    document.getElementById('coupon').style.visibility = 'visible'
+}
+
+function closeCoupon (){
+    document.getElementById('coupon').style.visibility = 'hidden'
+}
+
+
 var calc_display = document.querySelector('#calculator_display');
 var calc_btn = document.querySelectorAll('.btn');
 
