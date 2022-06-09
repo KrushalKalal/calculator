@@ -49,7 +49,7 @@ body{
     left: 35.2%;
     z-index: 100;
     margin: auto;
-    visibility: visible;
+
 
 }
 
@@ -73,7 +73,7 @@ body{
 }
 
 .container{
-    margin-top: 11%;
+    margin-top: 7%;
     width: 35%;
     height:auto;
     background-color:var(--container-color);
@@ -137,4 +137,315 @@ body{
 
 #result_button{
     background-color: rgba(62, 185, 62, 0.897);
+}
+
+@media  only screen and (min-width: 1200px) {
+
+    #coupon{
+        top: 28%;
+        left: 34.8%;
+        height: 60vh;
+    }
+
+    #coupon button{
+        position: relative;
+        top:32px;
+    }
+   .theme i{
+    
+        margin-top: -54px;
+        margin-right: 32%;
+    }
+    
+    .container{
+       width: 38%;
+    }
+
+    .display #calculator_display{
+        width: 100%;
+        height:15vh;
+        font-size: 35px;
+    }
+
+     .button_size{
+        width:20%;
+    }
+    
+    .button_size button{
+        height: 7vh;
+    }
+}
+
+@media  only screen and (max-width: 1024px) {
+
+    #coupon{
+        top: 28%;
+        left: 34.8%;
+        height: 60vh;
+    }
+
+    #coupon button{
+        position: relative;
+        top:32px;
+    }
+   .theme i{
+    
+        margin-top: -54px;
+        margin-right: 28%;
+    }
+    
+    .container{
+       width: 45%;
+    }
+
+    .display #calculator_display{
+        width: 100%;
+        height:15vh;
+        font-size: 35px;
+    }
+
+     .button_size{
+        width:20%;
+    }
+    
+    .button_size button{
+        height: 7vh;
+    }
+}
+
+@media  only screen and (max-width: 992px) {
+
+    #coupon{
+        top: 29%;
+        left: 34.8%;
+        height: 62vh;
+    }
+
+    #coupon button{
+        position: relative;
+        top:32px;
+    }
+   .theme i{
+    
+        margin-top: -54px;
+        margin-right: 28%;
+    }
+    .container{
+        width: 46%;
+     }
+ 
+     .display #calculator_display{
+         width: 100%;
+         height:17vh;
+         font-size: 35px;
+     }
+ 
+      .button_size{
+         width:20%;
+     }
+     
+     .button_size button{
+         height: 7vh;
+       
+     }
+}
+
+@media  only screen and (max-width: 768px) {
+
+    #coupon{
+        top: 21%;
+        left: 30%;
+        height: 65vh;
+        width: 40%;
+    }
+
+    #coupon button{
+        position: relative;
+        top:32px;
+    }
+   .theme i{
+    
+        margin-top: -54px;
+        margin-right: 26%;
+    }
+    .container{
+        width: 50%;
+     }
+ 
+     .display #calculator_display{
+         width: 100%;
+         height:14vh;
+         font-size: 24px;
+     }
+ 
+      .button_size{
+         width:20%;
+     }
+     
+     .button_size button{
+         height: 7vh;
+         font-size: 12px;
+     }
+}
+
+@media  only screen and (max-width: 576px) {
+
+    #coupon{
+        top: 24%;
+        left: 22%;
+        height: 60vh;
+        width: 54%;
+    }
+
+    #coupon button{
+        position: relative;
+        top:32px;
+    }
+   .theme i{
+    
+        margin-top: -54px;
+        margin-right: 19%;
+    }
+    .container{
+        margin-top: 14%;
+        width: 66%;
+     }
+ 
+     .display #calculator_display{
+         width: 100%;
+         height:10vh;
+         font-size: 24px;
+     }
+ 
+      .button_size{
+         width:20%;
+     }
+     
+     .button_size button{
+         height: 6vh;
+         font-size: 12px;
+     }
+}
+
+@media  only screen and (max-width: 425px) {
+
+    #coupon{
+        top: 20%;
+        left: 18%;
+        height: 60vh;
+        width: 65%;
+    }
+
+    #coupon button{
+        position: relative;
+        top:32px;
+        left:90%;
+    }
+   .theme i{
+    
+        margin-top: -54px;
+        margin-right: 8%;
+    }
+    .container{
+        margin-top: 14%;
+        width: 88%;
+     }
+ 
+     .display #calculator_display{
+         width: 100%;
+         height:10vh;
+         font-size: 20px;
+     }
+ 
+      .button_size{
+         width:20%;
+     }
+     
+     .button_size button{
+         height: 6vh;
+         font-size: 12px;
+     }
+}
+
+
+@media  only screen and (max-width: 375px) {
+
+    #coupon{
+        top: 20%;
+        left: 11%;
+        height: 60vh;
+        width: 80%;
+    }
+
+    #coupon button{
+        position: relative;
+        top:32px;
+        left:90%;
+    }
+   .theme i{
+    
+        margin-top: -46px;
+        margin-right: 4%;
+    }
+    .container{
+        margin-top: 16%;
+        width: 96%;
+     }
+ 
+     .display #calculator_display{
+         width: 100%;
+         height:12vh;
+         font-size: 20px;
+     }
+ 
+      .button_size{
+         width:20%;
+     }
+     
+     .button_size button{
+         height: 6vh;
+         font-size: 12px;
+     }
+}
+
+
+@media  only screen and (max-width: 320px) {
+
+    #coupon{
+        top: 20%;
+        left: 7%;
+        height: 60vh;
+        width: 88%;
+    }
+
+    #coupon button{
+        position: relative;
+        top:32px;
+        left:90%;
+    }
+   .theme i{
+    
+        margin-top: -46px;
+        margin-right: 4%;
+    }
+    .container{
+        margin-top: 16%;
+        width: 100%;
+     }
+ 
+     .display #calculator_display{
+         width: 100%;
+         height:12vh;
+         font-size: 20px;
+     }
+ 
+      .button_size{
+         width:20%;
+     }
+     
+     .button_size button{
+         width: 110%;
+         height: 6vh;
+         font-size: 10px;
+     }
 }
